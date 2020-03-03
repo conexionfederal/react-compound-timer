@@ -17,7 +17,8 @@
     "build": "npx styleguidist build",
     "test": "jest",
     "transpile": "tsc",
-    "prepublishOnly": "npm run transpile"
+    "prepublishOnly": "npm run transpile",
+    "prepare": "npm run build"
   },
   "author": "German Volkov <Volkov.german.1997@gmail.com> (https://volkov97.com)",
   "license": "ISC",
